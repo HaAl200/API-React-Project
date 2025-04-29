@@ -1,0 +1,82 @@
+
+.box {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .head {
+    font-family: Impact;
+    font-size: 2.5rem;
+    color: #101d29;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .search {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search:focus {
+    outline: none;
+    border-color: #021e35;
+  }
+  
+  .filter-container {
+    height: 30px;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+    
+  .filter-select {
+    padding: 0.6rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: white;
+    min-width: 150px;
+  }
+  
+  .country-list {
+    list-style:square;
+    padding: 0;
+  }
+  
+  .country-item {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    background-color: #f3f4f5;
+    transition: transform 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .country-item:hover {
+    transform: translateX(5px);
+    background-color: #ffffff;
+  }
+  
+  .country-name {
+    font-weight: 600;
+    font-family: Impact;
+    color: #1e293b;
+  }
+  
+  .capital {
+color: #64748b;
+  }
+    
+  
